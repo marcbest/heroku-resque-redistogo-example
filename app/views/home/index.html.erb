@@ -1,4 +1,11 @@
-<h2>Heroku Rails Resque RedisToGo Example</h2>
-<p>
-  Resque stats:
-</p>
+<h1>Heroku Rails Resque RedisToGo Example</h1>
+<h2>Resque stats:</h2>
+<p>Pending: <%= @resque_info[:pending] %></p>
+<p>Processed: <%= @resque_info[:processed] %></p>
+<p>Queues: <%= @resque_info[:queues] %></p>
+<p>Workers: <%= @resque_info[:workers] %></p>
+<p>Working: <%= @resque_info[:working] %></p>
+<p>Failed: <%= @resque_info[:failed] %></p>
+
+<%= button_to "Queue a random job", home_enqueue_job_path, method: :post %>
+<p>refresh the page for updated Resque stats</p>
