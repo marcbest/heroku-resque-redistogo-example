@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo application for deploying a Rails 5 application with Resque and RedisToGo on Heroku
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://medium.com/@marc_best/deploying-rails-resque-to-heroku-with-redistogo-a3d17ba17e50
