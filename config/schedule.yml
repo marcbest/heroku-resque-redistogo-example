@@ -1,0 +1,4 @@
+test_blog_post:
+  cron: '0 12 * * *'
+  class: TestJob
+  description: A test job that runs once a day

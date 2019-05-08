@@ -14,6 +14,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'pg'
 gem 'resque'
 gem 'resque-web', require: 'resque_web'
+gem 'resque-scheduler'
+gem 'resque-scheduler-web'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

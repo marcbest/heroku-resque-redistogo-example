@@ -1,5 +1,7 @@
 require 'resque/server'
 
+Resque.schedule = YAML.load_file Rails.root.join('config', 'schedule.yml')
+
 if Rails.env.development?
   Resque.redis = Redis.new(:host => 'localhost', :port => '6379')
 else
